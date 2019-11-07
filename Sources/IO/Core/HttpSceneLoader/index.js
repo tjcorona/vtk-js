@@ -115,6 +115,7 @@ function updateDatasetTypeMapping(typeName, handler) {
 // ----------------------------------------------------------------------------
 
 function vtkHttpSceneLoader(publicAPI, model) {
+  console.log('calling vtkHttpSceneLoader from a custom vtk-js');
   const originalSceneParameters = {};
 
   // Set our className
